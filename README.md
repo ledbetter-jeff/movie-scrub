@@ -1,2 +1,3 @@
 # movie-scrub
-this site is intended to assist parents in determining the suitability of a movie for their children's viewing.
+There's a lot of garbage out there. 
+Keep your family safe with MovieScrub!
