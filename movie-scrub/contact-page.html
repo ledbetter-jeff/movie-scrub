@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Page | The Mountain Spoke</title>
+    <meta name="author" content="Jeff Ledbetter">
+    <meta name="description" content="Mountain Spoke contact and location page">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
+    <!-- https://ledbetter-jeff.github.io/assignments/term-site/contact-page.html   -->
+</head>
+
+<body>
+<header>
+    <img id="siteIcon" src="images/home-page/ms-logo-plus.png" alt="The site logo">
+    <!--<p>Contact Page | The Mountain Spoke</p>-->
+    <!--<span class="subheading">Mountain Spoke. Ride the earth!</span>-->
+</header>
+
+<!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="toggleNav" class="hide container">
+        <li class="flexItem"><a href="index.html">Home</a></li>
+        <li class="flexItem"><a href="adventure-tours-page.html">Adventure Tours</a></li>
+        <li class="flexItem"><a href="event-page.html">Event Page</a></li>
+        <li class="flexItem"><a href="sales-page.html">Sales Page</a></li>
+        <li class="flexItem"><a href="service-page.html">Service Page</a></li>
+        <li class="flexItem" id="active"><a href="#">Contact Page</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Contact Page</h1>
+    <div class="wrapper">
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11151.589366681912!2d-111.0948422754889!3d45.6729611565185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1522872281387" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div>
+            <aside>
+            <h2>The Mountain Spoke</h2>
+            <p>Established: 1969</p>
+            <p>3950 Valley Commons Drive</p>
+            <p>Bozeman, MT 59715</p>
+            <p>999-999-9999</p>
+            <p>ride@mtnspoke.com</p>
+            </aside>
+        </div>
+        <div>
+            <form action="contact-thanks.html" method="post" enctype="multipart/form-data" name="contact request" id="contactMe">
+                    <fieldset>
+                        <legend><span>Contact Us</span></legend>
+                        <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
+                        <label><span>Email: </span><input name="email" type="email" value="" placeholder="john@aol.com" required></label>
+                        <label><span>Phone: </span><input name="phone" type="tel" value="" placeholder="5552237164" pattern="[0-9]{10, 20}" required></label>
+                        <label id="comments">
+                            <span>Message: </span>
+                            <textarea rows="4" cols="40"></textarea>
+                        </label>
+                        <button class="flexItem" type="submit" value="Submit">Submit</button>
+                    </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p class="contact-info"><img id="siteIconMini" src="images/home-page/ms-logo.png" alt="The site logo"> <br>The Mountain Spoke <br> 3950 Valley Commons Drive<br> Bozeman, MT 59715 <br> 999-999-9999 <br> ride@mtnspoke.com</p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp <a href="reference-page.html" id="refPage">References Page</a> &nbsp | &nbsp <a href="video.html" id="overviewVid">Overview Video</a> &nbsp | &nbsp <span id="currentDate">Current Date Placeholder</span></p>
+</footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentDate.js"></script>
+</body>
+</html>

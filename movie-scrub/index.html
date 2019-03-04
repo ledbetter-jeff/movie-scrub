@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | The Mountain Spoke</title>
+    <meta name="author" content="Jeff Ledbetter">
+    <meta name="description" content="The Mountain Spoke's home page.">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif|Roboto" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <!-- https://ledbetter-jeff.github.io/assignments/term-site/index.html   -->
+</head>
+
+<body>
+<header>
+    <img id="siteIcon" src="images/home-page/ms-logo-plus.png" alt="The site logo">
+
+</header>
+
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="toggleNav" class="hide container">
+        <li class="flexItem" id="active"><a href="#">Home</a></li>
+        <li class="flexItem"><a href="adventure-tours-page.html">Adventure Tours</a></li>
+        <li class="flexItem"><a href="event-page.html">Event Page</a></li>
+        <li class="flexItem"><a href="sales-page.html">Sales Page</a></li>
+        <li class="flexItem"><a href="service-page.html">Service Page</a></li>
+        <li class="flexItem"><a href="contact-page.html">Contact Page</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Welcome to The Mountain Spoke.</h1>
+
+    <h3>Come join us as we Ride The Earth!</h3>
+    <div class="wrapper">
+    <figure>
+        <picture class="tile 1">
+            <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
+                    srcset="images/home-page/small/11-small.jpg 1x,
+                        images/home-page/small/11-small.jpg 1.2x,
+                        images/home-page/small/11-small.jpg 1.5x">
+            <source media=" (max-width: 64em) " sizes=" (max-width: 1000px) 100vw, 50vw"
+                    srcset="images/home-page/medium/11-medium.jpg 1x,
+                        images/home-page/medium/11-medium.jpg 1.2x,
+                        images/home-page/medium/11-medium.jpg 1.5x">
+            <img src="images/home-page/medium/11-medium.jpg" alt="downhill race">
+        </picture>
+        <figcaption>
+            <h4><a href="sales-page.html" id="salesLink">Crush every trail with our slickest gear ever!</a></h4>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <picture class="tile 4">
+            <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
+                    srcset="images/home-page/small/14-small.jpg 1x,
+                        images/home-page/small/14-small.jpg 1.2x,
+                        images/home-page/small/14-small.jpg 1.5x">
+            <source media=" (max-width: 64em) " sizes=" (max-width: 1000px) 100vw, 50vw"
+                    srcset="images/home-page/medium/14-medium.jpg 1x,
+                        images/home-page/medium/14-medium.jpg 1.2x,
+                        images/home-page/medium/14-medium.jpg 1.5x">
+            <img src="images/home-page/medium/14-medium.jpg" alt="dusty road">
+        </picture>
+        <figcaption>
+            <h4><a href="adventure-tours-page.html" id="adventureLink">Stay up with the local trail news.</a></h4>
+        </figcaption>
+    </figure>
+
+        <figure>
+            <picture class="tile 3">
+                <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
+                        srcset="images/home-page/small/13-small.jpg 1x,
+                        images/home-page/small/13-small.jpg 1.2x,
+                        images/home-page/small/13-small.jpg 1.5x">
+                <source media=" (max-width: 64em) " sizes=" (max-width: 1000px) 100vw, 50vw"
+                        srcset="images/home-page/medium/13-medium.jpg 1x,
+                        images/home-page/medium/13-medium.jpg 1.2x,
+                        images/home-page/medium/13-medium.jpg 1.5x">
+                <img src="images/home-page/medium/13-medium.jpg" alt="massive hangtime">
+            </picture>
+            <figcaption>
+                <h4><a href="service-page.html" id="serviceLink">The service you need to stay on the Mountain.</a></h4>
+            </figcaption>
+        </figure>
+    </div>
+
+</main>
+
+<footer>
+    <p class="contact-info"><img id="siteIconMini" src="images/home-page/ms-logo.png" alt="The site logo"> <br>The Mountain Spoke <br> 3950 Valley Commons Drive<br> Bozeman, MT 59715 <br> 999-999-9999 <br> ride@mtnspoke.com</p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp <a href="reference-page.html" id="refPage">References Page</a> &nbsp | &nbsp <a href="video.html" id="overviewVid">Overview Video</a> &nbsp | &nbsp <span id="currentDate">Current Date Placeholder</span></p>
+</footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentDate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="title">Adventure Tours | The Mountain Spoke</title>
+    <meta name="author" content="Jeff Ledbetter">
+    <meta name="description" content="Mountain Spoke guided tours page.">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
+    <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <script src="scripts/toggle.js"></script>
+
+    <!-- https://ledbetter-jeff.github.io/assignments/term-site/adventure-tours-page.html   -->
+</head>
+
+<body>
+<header>
+    <img id="siteIcon" src="images/home-page/ms-logo-plus.png" alt="The site logo">
+    <!--<p>Adventure Tours | The Mountain Spoke</p>-->
+    <!--<span class="subheading">Mountain Spoke. Ride the earth!</span>-->
+</header>
+
+<!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="toggleNav" class="hide container">
+        <li class="flexItem"><a href="index.html">Home</a></li>
+        <li class="flexItem" id="active"><a href="#">Adventure Tours</a></li>
+        <li class="flexItem"><a href="event-page.html">Event Page</a></li>
+        <li class="flexItem"><a href="sales-page.html">Sales Page</a></li>
+        <li class="flexItem"><a href="service-page.html">Service Page</a></li>
+        <li class="flexItem"><a href="contact-page.html">Contact Page</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Adventure Tour Map</h1>
+    <div class="wrapper">
+    <figure>
+        <picture class="tour map">
+            <source media="(max-width: 37.5em)" sizes=" (max-width: 37.5em) 50vw, 10vw"
+                    srcset="images/adventure-tours/small/tour-map-small.png 1x,
+                        images/adventure-tours/small/tour-map-small.png 1.4x,
+                        images/adventure-tours/small/tour-map-small.png 1.7x">
+            <source media="(max-width: 64em)"  sizes=" (max-width: 64em) 100vw, 30vw"
+                    srcset="images/adventure-tours/medium/tour-map-medium.png 1x,
+                        images/adventure-tours/medium/tour-map-medium.png 1.4x,
+                        images/adventure-tours/medium/tour-map-medium.png 1.7x">
+            <img src="images/adventure-tours/medium/tour-map-medium.png" alt="topographical map of trail rides.">
+        </picture>
+        <figcaption></figcaption>
+    </figure>
+
+<ul class="dropdownMenu">
+    <li class="dropLi"><h2>Adventure Tour Map</h2>
+            <ul>
+                <li>Location: Bozeman</li>
+                <li>Skill level: Intermediate</li>
+                <li>Length: 24 miles</li>
+                <li>Cost: $50</li>
+            </ul>
+    </li>
+    <li class="dropLi"><h2>Grassy Mountain Top</h2>
+            <ul>
+                <li>Location: Bozeman</li>
+                <li>Skill level: Intermediate</li>
+                <li>Length: 16 miles</li>
+                <li>Cost: $35</li>
+            </ul>
+    </li>
+</ul>
+
+
+    <article>
+        <h2>Bangtail and Grassy Mountain voted Best Rides of 2017</h2>
+        <p>When you really want to push yourself and test the limits of your bike, dare to ride Bangtail.
+            You'll need to plan for about 3-4 hours and it's advised to hit the trail no later than 9AM.
+            Avoiding the arid summer heat when approaching the climax of this ride is essential.
+            Keep an eye out for hikers and horse backs. As long as you come prepared, this will be one of your most epic rides ever!
+        </p>
+        <p>Whether you're just getting started or easing back into the saddle, Grassy Mountain is a dream ride.
+            You'll experience nearly all the same thrilling views as on Bangtail with a much less taxing ride.
+            Watch out for truckers on the flat gravel roads.
+            Don't forget the sun tan lotion as nearly 60% of your ride will be under the sun.
+            From start to finish you'll need 2-3 hours.
+        </p>
+    </article>
+    </div>
+</main>
+
+<footer>
+    <p class="contact-info"><img id="siteIconMini" src="images/home-page/ms-logo.png" alt="The site logo"> <br>The Mountain Spoke <br> 3950 Valley Commons Drive<br> Bozeman, MT 59715 <br> 999-999-9999 <br> ride@mtnspoke.com</p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp <a href="reference-page.html" id="refPage">References Page</a> &nbsp | &nbsp <a href="video.html" id="overviewVid">Overview Video</a> &nbsp | &nbsp <span id="currentDate">Current Date Placeholder</span></p>
+</footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentDate.js"></script>
+</body>
+</html>
