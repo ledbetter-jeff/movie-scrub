@@ -6,7 +6,7 @@
 
 /*******************      Main Elements Styling      ******************/
 
-header {height: 70px;font-family: 'Oswald', sans-serif;font-size: 18px;background-color: #266107 ;color: white;padding:  11px 0 0 0 !important;margin: 0 0 0 0;}
+header {height: 70px;font-family: 'Oswald', sans-serif;font-size: 18px;background-color: #ff8000 ;color: white;padding:  11px 0 0 0 !important;margin: 0 0 0 0;}
 
 .subheading { font-size: 28px}
 
@@ -22,7 +22,7 @@ body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
 #refPage {text-decoration: none;color: #FFFFFF;}
 
-#refPage:hover {background-color: #794A18;}
+#refPage:hover {background-color: #ff9933;}
 
 #overviewVid {text-decoration: none;color: #FFFFFF;}
 
@@ -40,7 +40,7 @@ body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
 #adventureLink:hover {color: #00cc00;}
 
-footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
+footer { background-color: #ff8000; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
 .footer-bar { text-align: center;}
 
@@ -60,17 +60,17 @@ iframe {margin: 3em 1.5em;}
 
 nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
-nav {background-color: #266107 !important; font-family: Verdana, sans-serif;margin: 0;padding: 3em 1em 1em 1em;}
+nav {background-color: #ff8000 !important; font-family: Verdana, sans-serif;margin: 0;padding: 3em 1em 1em 1em;}
 
 nav ul {font-weight: bold;list-style-type: none;padding: 0;margin: 0;}
 
-nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;background-color: #266107;}
+nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;background-color: #ff8000;}
 
-nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #266107;text-decoration: none;}
+nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #ff8000 ;text-decoration: none;}
 
-nav ul li a:hover {background-color: #794A18;}
+nav ul li a:hover {background-color: #ff9933;}
 
-nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
+nav ul li#active a {background-color: rgba(0,0,0,.4); color: #fff;}
 
 nav ul.hide {display: none;}
 
@@ -118,7 +118,7 @@ img:hover { box-shadow: 5px 5px 10px gray;}
 
 .dot {cursor: pointer;height: 13px;width: 13px;background-color: #bbb;border-radius: 50%;display: inline-block;transition: background-color 0.5s ease;margin-bottom: 20px;}
 
-.active, .dot:hover {background-color: #794A18;}
+.active, .dot:hover {background-color: #ff9933;}
 
 .fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.3s;animation-name: fade;animation-duration: 1.3s;}
 
@@ -165,9 +165,9 @@ table, th, td { border: black solid 2px;}
 
 th, td { text-align: center;padding: .4rem .7rem;color: #FFFFFF;}
 
-th { background: forestgreen;color: black;font-size: 28px;}
+th { background: #ff8000;color: black;font-size: 28px;}
 
-td { background: #794A18;color: #FFFFFF ;font-size: 26px}
+td { background: #ff9933;color: #FFFFFF ;font-size: 26px}
 
 main section {margin-left: 40px;}
 

@@ -3,18 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | MovieScrub</title>
+    <title id="title">Adventure Tours | The Mountain Spoke</title>
     <meta name="author" content="Jeff Ledbetter">
-    <meta name="description" content="The Mountain Spoke's home page.">
+    <meta name="description" content="Mountain Spoke guided tours page.">
     <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
-    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
-    <!-- https://ledbetter-jeff.github.io/assignments/term-site/index.html   -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <script src="scripts/toggle.js"></script>
+
+    <!-- https://ledbetter-jeff.github.io/assignments/term-site/adventure-tours-page.html   -->
 </head>
 
 <body>
@@ -22,24 +24,21 @@
 
 </header>
 
+<!-- site navigation use placeholder references -->
 <nav class="clearfix">
     <button onclick="toggleNavMenu()">&#9776;</button>
     <ul id="toggleNav" class="hide container">
-        <li class="flexItem" id="active"><a href="#">Dashboard</a></li>
-        <li class="flexItem"><a href="about-us.html">About Us</a></li>
+        <li class="flexItem"><a href="index.html">Dashboard</a></li>
+        <li class="flexItem" id="active"><a href="#">About Us</a></li>
         <li class="flexItem"><a href="contact-page.html">Contact Page</a></li>
     </ul>
 </nav>
-<main>
-    <h1>Welcome MovieScrub!</h1>
 
-    <h3>Movie scrubbing made easy.</h3>
+<main>
+    <h3>The story behind the soapy screen.</h3>
     <div class="wrapper">
 
-
-
     </div>
-
 </main>
 
 <footer>
@@ -48,6 +47,5 @@
 </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentDate.js"></script>
-
 </body>
 </html>
