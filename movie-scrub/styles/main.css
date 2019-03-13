@@ -12,26 +12,13 @@ header {;font-family: 'Oswald', sans-serif;font-size: 18px;background-color: #ff
 
 body header {padding: 0;}
 
-body main h1    {margin-bottom: 0;}
+body main h1 {margin-bottom: 0;}
 
 body main { margin-left: 2em; }
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
-#salesTitle {margin-bottom: 22px;}
-
-#refPage {text-decoration: none;color: #FFFFFF;}
-
-#refPage:hover {background-color: #ff9933;}
-
-#overviewVid {text-decoration: none;color: #FFFFFF;}
-
-#salesLink {text-decoration: none;color: #000000;}
-
-
-#serviceLink {text-decoration: none;color: #000000;}
-
-footer { background-color: #ff8000; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
+footer { background-color: #ff8000; color: white; padding: 5px; width: 100%; position: absolute;}
 
 .footer-bar { text-align: center;}
 
@@ -73,8 +60,6 @@ ul li {list-style-type: none;}
 
 
 /*******************      Img Styling      ******************/
-
-main figure {margin-bottom: 2em;}
 
 .wrapper {display: grid; grid-row-gap: 1em; grid-column-gap: 1em;}
 
