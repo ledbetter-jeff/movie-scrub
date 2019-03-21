@@ -36,52 +36,60 @@
     <h3>Movie screening made easy.</h3>
     <br>
     <br>
+<section>
+
+</section>
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        var requestURL = 'scripts/black_panther.json';
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'text';
+        request.send();
+        request.onload = function() {
+            var subTitleObject = request.response;
+            var subTitles = JSON.parse(subTitleObject);
+            populateHeader(subTitles);
+            showSubTitles(subTitles);
+        }
+        function populateHeader(jsonObj) {
+            var myH1 = document.createElement('h1');
+//            myH1.textContent = jsonObj['squadName'];
+            header.appendChild(myH1);
+            var myPara = document.createElement('p');
+   //         myPara.textContent = 'Location: ' + jsonObj['Location'] + ' // Formed: ' + jsonObj['formed'];
+            header.appendChild(myPara);
+        }
+        function showSubTitles(jsonObj) {
+            var subTitles = jsonObj['subTitles'];
+            for(var i = 0; i < subTitles.length; i++) {
+                var myArticle = document.createElement('article');
+                var myH2 = document.createElement('h2');
+                var myPara1 = document.createElement('p');
+                var myPara2 = document.createElement('p');
+                var myBreak = document.createElement('br');
+
+                myH2.textContent = subTitles[i].subNum;
+                myPara1.textContent = 'Time Stamp: ' + subTitles[i].timeStamp;
+                myPara2.textContent = 'Text:' + subTitles[i].subText;
+                myBreak.textContent = '<br>';
+
+
+                myArticle.appendChild(myH2);
+                myArticle.appendChild(myPara1);
+                myArticle.appendChild(myPara2);
+                myArticle.appendChild(myBreak);
+                section.appendChild(myArticle);
+            }
+        }
+    </script>
+    
     <br>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
 
 
 </main>

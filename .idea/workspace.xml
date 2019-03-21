@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d2af5e-e618-4287-b790-02fadd866299" name="Default Changelist" comment="" />
+    <list default="true" id="53d2af5e-e618-4287-b790-02fadd866299" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-scrub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-scrub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-scrub/scripts/black_panther.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie-scrub/scripts/black_panther.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-scrub/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-scrub/styles/main.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.6801196">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/movie-scrub/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+                <state relative-caret-position="695">
+                  <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -24,13 +29,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/movie-scrub/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="42" column="43" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="43" />
+                <state relative-caret-position="357">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/movie-scrub/scripts/subSearch.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
@@ -46,8 +51,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/movie-scrub/scripts/black_panther.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="255">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -63,9 +68,11 @@
       <find>min</find>
       <find>height</find>
       <find>franklinWeatherObject</find>
+      <find>heroes</find>
     </findStrings>
     <replaceStrings>
       <replace>subTitleObject</replace>
+      <replace>subTitles</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -75,16 +82,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/movie-scrub/styles/medium.css" />
-        <option value="$PROJECT_DIR$/movie-scrub/index.html" />
         <option value="$PROJECT_DIR$/movie-scrub/about-us.html" />
         <option value="$PROJECT_DIR$/movie-scrub/contact-page.html" />
         <option value="$PROJECT_DIR$/movie-scrub/contact-thanks.html" />
-        <option value="$PROJECT_DIR$/movie-scrub/styles/main.css" />
         <option value="$PROJECT_DIR$/movie-scrub/scripts/convert_SRT.json" />
         <option value="$PROJECT_DIR$/movie-scrub/scripts/convert_SRT.js" />
         <option value="$PROJECT_DIR$/movie-scrub/scripts/black_panther.js" />
-        <option value="$PROJECT_DIR$/movie-scrub/scripts/black_panther.json" />
         <option value="$PROJECT_DIR$/movie-scrub/scripts/subSearch.js" />
+        <option value="$PROJECT_DIR$/movie-scrub/styles/main.css" />
+        <option value="$PROJECT_DIR$/movie-scrub/scripts/black_panther.json" />
+        <option value="$PROJECT_DIR$/movie-scrub/index.html" />
       </list>
     </option>
   </component>
@@ -137,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553110270929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553194801372" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,12 +177,12 @@
       <workItem from="1551729358131" duration="2614000" />
       <workItem from="1552415845871" duration="2967000" />
       <workItem from="1552503815822" duration="1358000" />
-      <workItem from="1553022601633" duration="2457000" />
+      <workItem from="1553022601633" duration="5697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9396000" />
+    <option name="totallyTimeSpent" value="12636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1634" height="950" extended-state="0" />
@@ -215,13 +222,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie-scrub/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie-scrub/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -266,15 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie-scrub/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-scrub/scripts/black_panther.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -282,6 +275,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-scrub/scripts/black_panther.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-scrub/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
         </state>
       </provider>
     </entry>

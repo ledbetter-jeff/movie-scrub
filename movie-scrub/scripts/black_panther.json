@@ -1,16 +1,15 @@
 {
-    "subtitles": [
+    "active" : true,
+    "subTitles": [
         {
-            "SubTitle No.": "1",
-            "BegTimeStamp": "00:00:05,797",
-            "EndTimeStamp": "00:00:06, 878",
-            "Text": "Baba..."
+            "subNum" : "1",
+            "timeStamp": "00:00:05",
+            "subText": " Baba..."
         },
         {
-            "SubTitle No.": "2",
-            "BegTimeStamp": "00:00:07,049",
-            "EndTimeStamp": "00:00:08, 255",
-            "Text": "Yes, my son."
+            "subNum" : "2",
+            "timeStamp": "00:00:07",
+            "subText": " Yes, my son."
         }
     ]
 }
